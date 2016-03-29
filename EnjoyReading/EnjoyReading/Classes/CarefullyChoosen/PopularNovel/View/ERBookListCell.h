@@ -1,0 +1,16 @@
+//
+//  ERBookListCell.h
+//  EnjoyReading
+//
+//  Created by 王亮 on 16/3/23.
+//  Copyright (c) 2016年 wangliang. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class ERBookList;
+@interface ERBookListCell : UITableViewCell
+/** 模型 */
+@property (nonatomic, strong) ERBookList *bookList;
+
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+@end

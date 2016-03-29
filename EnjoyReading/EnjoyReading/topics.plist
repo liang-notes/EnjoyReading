@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>c_today</string>
+		<key>title</key>
+		<string>历史上的今天</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_wechat</string>
+		<key>title</key>
+		<string>微信精选</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_jokes</string>
+		<key>title</key>
+		<string>幽默段子</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_xiaoshuo</string>
+		<key>title</key>
+		<string>精选书籍</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_jiankang</string>
+		<key>title</key>
+		<string>健康常识</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_caipu</string>
+		<key>title</key>
+		<string>营养菜谱</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_dream</string>
+		<key>title</key>
+		<string>周公解梦</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>c_yunshi</string>
+		<key>title</key>
+		<string>星座运势</string>
+	</dict>
+</array>
+</plist>

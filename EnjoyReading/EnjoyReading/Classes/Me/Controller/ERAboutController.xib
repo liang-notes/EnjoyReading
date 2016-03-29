@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ERAboutController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tubiao" translatesAutoresizingMaskIntoConstraints="NO" id="xee-8c-EDY">
+                    <rect key="frame" x="20" y="74" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="05h-kD-KKv"/>
+                        <constraint firstAttribute="width" constant="40" id="UuZ-gC-9QK"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tubiaowenzi" translatesAutoresizingMaskIntoConstraints="NO" id="ake-sg-mqC">
+                    <rect key="frame" x="80" y="76" width="100" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="SSJ-TO-EV3"/>
+                        <constraint firstAttribute="height" constant="35" id="Tg3-id-L58"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本:1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2s-Vm-vot">
+                    <rect key="frame" x="20" y="129" width="51" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EnjoyReading是一款为阅读而生的新一代信息客户端！通过提供个性化的新闻资讯，生活频道，完美的适应用户体验偏好，帮助用户从浩瀚的信息分类中精选出具有独特个性的内容，让用户在享受中去获取喜欢的资讯内容，在享受中增长见识，进步每一天！" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="vIA-np-a0T">
+                    <rect key="frame" x="20" y="161" width="560" height="134"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016 WangLiang Inc. All Rights Reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbc-pn-dCe">
+                    <rect key="frame" x="10" y="576" width="580" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联系我们" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYV-B5-Urs">
+                    <rect key="frame" x="20" y="310" width="60" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="174" translatesAutoresizingMaskIntoConstraints="NO" id="5eI-AO-91F">
+                    <rect key="frame" x="20" y="333" width="174" height="34"/>
+                    <string key="text">Email:283175161@qq.com 
+Tel:18682198498</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xee-8c-EDY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="1ek-XY-Jxd"/>
+                <constraint firstAttribute="centerX" secondItem="dbc-pn-dCe" secondAttribute="centerX" id="5ac-R9-FDP"/>
+                <constraint firstAttribute="bottom" secondItem="dbc-pn-dCe" secondAttribute="bottom" constant="10" id="7QF-hb-hx7"/>
+                <constraint firstItem="x2s-Vm-vot" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="8S0-9C-8eL"/>
+                <constraint firstItem="xee-8c-EDY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="8qP-sW-eTL"/>
+                <constraint firstItem="vIA-np-a0T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="AqR-21-W3j"/>
+                <constraint firstAttribute="trailing" secondItem="dbc-pn-dCe" secondAttribute="trailing" constant="10" id="HuP-07-y9k"/>
+                <constraint firstAttribute="trailing" secondItem="vIA-np-a0T" secondAttribute="trailing" constant="20" id="OKb-0o-0rK"/>
+                <constraint firstItem="dbc-pn-dCe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="SZb-ie-S9Z"/>
+                <constraint firstItem="5eI-AO-91F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Skp-by-TPE"/>
+                <constraint firstItem="xYV-B5-Urs" firstAttribute="top" secondItem="vIA-np-a0T" secondAttribute="bottom" constant="15" id="WO0-c6-qLv"/>
+                <constraint firstItem="xYV-B5-Urs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Z16-gv-TOr"/>
+                <constraint firstItem="vIA-np-a0T" firstAttribute="top" secondItem="x2s-Vm-vot" secondAttribute="bottom" constant="15" id="ZWd-Qc-K4a"/>
+                <constraint firstItem="5eI-AO-91F" firstAttribute="top" secondItem="xYV-B5-Urs" secondAttribute="bottom" constant="5" id="cmV-P7-qyx"/>
+                <constraint firstItem="x2s-Vm-vot" firstAttribute="top" secondItem="xee-8c-EDY" secondAttribute="bottom" constant="15" id="fz4-oN-4RY"/>
+                <constraint firstItem="ake-sg-mqC" firstAttribute="leading" secondItem="xee-8c-EDY" secondAttribute="trailing" constant="20" id="jsX-gw-WTB"/>
+                <constraint firstItem="xee-8c-EDY" firstAttribute="centerY" secondItem="ake-sg-mqC" secondAttribute="centerY" constant="0.5" id="t5R-3D-HVc"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="tubiao" width="40" height="40"/>
+        <image name="tubiaowenzi" width="100" height="35"/>
+    </resources>
+</document>

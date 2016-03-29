@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  EnjoyReading
+//
+//  Created by 王亮 on 16/2/28.
+//  Copyright (c) 2016年 wangliang. All rights reserved.
+//
+
+#ifndef EnjoyReading_PrefixHeader_pch
+#define EnjoyReading_PrefixHeader_pch
+
+#import "UIImage+Image.h"
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+
+// 自定义NSLog
+#ifdef DEBUG
+#define ERLog(...) NSLog(@"%s %d \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+
+#else
+#define ERLog(...)
+
+#endif
+
+//颜色
+#define ERColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define ERColorRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+//随机色
+#define ERRandomColor ERColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
+
+//全局背景色
+#define ERGlobalBackground ERColor(223, 223, 223)
+#define ERGlobalTitleColor ERColor(78, 123, 177)
+//屏幕的尺寸
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define HotNewsTableViewW 0.8 * ScreenW
+#define CategoryTableViewW 0.2 * ScreenW
+
+// 新闻字体和cell间距
+#define NewsCtimeFont [UIFont systemFontOfSize:14]
+#define NewsErdescriptionFont [UIFont systemFontOfSize:14]
+#define NewsTitleFont [UIFont systemFontOfSize:18]
+#define NewsContentFont [UIFont systemFontOfSize:16]
+#define NewsCellMargin 10
+
+#endif
